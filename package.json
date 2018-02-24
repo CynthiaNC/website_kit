@@ -6,6 +6,7 @@
   "dependencies": {
     "egg": "^2.2.1",
     "egg-scripts": "^2.5.0",
+    "egg-webpack": "^3.3.2",
     "egg-view-nunjucks": "^2.1.6"
   },
   "devDependencies": {
@@ -16,6 +17,7 @@
     "egg-mock": "^3.14.0",
     "eslint": "^4.11.0",
     "eslint-config-egg": "^6.0.0",
+    "webpack": "^3.11.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
@@ -31,7 +33,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "build": "webpack"
   },
   "ci": {
     "version": "8"
