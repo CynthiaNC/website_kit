@@ -1,0 +1,12 @@
+.tips {
+    font-size: 12px;
+    color: grey;
+}
+
+.emphsis {
+    color: firebrick;
+
+    &.light {
+        color: aquamarine;
+    }
+}
